@@ -1,11 +1,5 @@
-import { BarChart } from "./BarChart.tsx";
-import { DoughnutChart } from "./DoughnutChart.tsx";
+import { TwoColumnGrid } from "./TwoColumnGrid.tsx";
 
 export default function App() {
-  return (
-    <div>
-      <BarChart />
-      <DoughnutChart />
-    </div>
-  );
+  return <TwoColumnGrid />;
 }
