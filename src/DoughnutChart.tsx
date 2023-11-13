@@ -7,7 +7,7 @@ export const data = {
   labels: ["Bear for Asahi", "Bear for Sunrory", "Bear for Sapporo", "Bear for Kirin", "Bear for Bacardi"],
   datasets: [
     {
-      label: "# of Votes",
+      label: "# of articles",
       data: [12, 19, 3, 5, 2],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",
