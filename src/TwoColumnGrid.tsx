@@ -4,13 +4,13 @@ import { DoughnutChart } from "./DoughnutChart.tsx";
 export function TwoColumnGrid() {
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-1 items-end justify-items-center gap-x-4 gap-y-16 lg:grid-cols-2">
+      <div className="grid grid-cols-1 items-end justify-items-center gap-x-4 gap-y-16 md:grid-cols-3">
         {[1, 2, 3, 4, 5].map(() => (
           <>
-            <div className="h-72 justify-self-stretch">
+            <div className="h-80 justify-self-stretch md:col-span-2">
               <BarChart />
             </div>
-            <div className="h-60">
+            <div className="h-72">
               <DoughnutChart />
             </div>
           </>
